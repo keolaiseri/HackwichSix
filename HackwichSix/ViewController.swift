@@ -12,6 +12,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     //Array to display in Table view
     var favoriteColorsArray = ["Blue","Red", "Green","Orange"]
+    //Problem set arrays
     var countriesArray = ["Korea", "Italy", "Spain"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
