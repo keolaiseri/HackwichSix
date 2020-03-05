@@ -26,6 +26,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")
         let text = countriesArray[indexPath.row]
         cell?.textLabel?.text = text
+    cell?.detailTextLabel?.text = countriesArray[indexPath.row]
         return cell!
 
     }
